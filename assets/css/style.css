@@ -99,6 +99,7 @@ nav ul li a:hover{
     padding: 16px 30px;
     border-radius: 50px;
     transition: all .3s ease-in;
+    display: inline-block;
 }
 
 .btn:hover{
@@ -348,9 +349,9 @@ nav ul li a.btn-menu{
 
 .features2 .bottom-wrap .item:hover{
     border-radius: 25px;
-    -webkit-box-shadow: 0px 0px 26px -1px rgba(0,0,0,0.31);
-    -moz-box-shadow: 0px 0px 26px -1px rgba(0,0,0,0.31);
-    box-shadow: 0px 0px 26px -1px rgba(0,0,0,0.31);
+    -webkit-box-shadow: 0px 0px 26px -1px rgba(0,0,0,0.20);
+    -moz-box-shadow: 0px 0px 26px -1px rgba(0,0,0,0.20);
+    box-shadow: 0px 0px 26px -1px rgba(0,0,0,0.20);
 }
 
 .features2 .bottom-wrap .item h3{
@@ -377,3 +378,38 @@ nav ul li a.btn-menu{
     color: #53a06e;
 }
 /* feature2 section stop */
+
+
+/* latest code section start */
+.latest-code{
+    padding: 130px 0;
+    background: url(../images/latest\ code.png);
+    background-repeat: no-repeat;
+    background-position: 100px 30px;
+}
+
+.latest-code .container{
+    padding: 0 50px;
+}
+
+.latest-code .latest-wrap .left-img{
+    display: none;
+}
+.latest-code .latest-wrap .right-content{
+    width: 500px;
+    margin-left: auto;
+    padding: 0 60px 0 50px;
+}
+
+.latest-code .latest-wrap .right-content h2{
+    font-size: var(--heading2FontSize);
+    color: var(--colorPrimary);
+    font-family: Poopins-Semibold;
+}
+.latest-code .latest-wrap .right-content p{
+    font-size: var(--bodyFontSize);
+    color: var(--colorLight);
+    line-height: 1.4;
+    padding: 20px 0 25px 0;
+}
+/* latest code section stop */
